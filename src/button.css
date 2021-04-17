@@ -1,0 +1,66 @@
+.primarybutton,.secondarybutton,.tertiarybutton {
+    font-family: "Nexa-Light";
+    border-radius: 0.3rem;
+    font-size:0.8rem ;
+}
+.secondarybutton,.tertiarybutton {
+    opacity: 0.8;
+}
+.primarybutton {
+    padding:0.5rem 1.8rem 0.5rem 1.8rem;
+    color:white;
+    background: var(--dark-blue);
+    border:0.01rem solid var(--dark-blue);
+}
+.secondarybutton {
+    background: var(--mida-blue);
+    font-size: 0.8rem;
+    padding:1rem 1.2rem 1rem 1.2rem;
+    border:0.01rem solid var(--mid-blue);
+    color:white;
+}
+
+.tertiarybutton {
+    border:0.01rem solid var(--dark-blue);
+    background-color:white;
+    padding:0.7rem 1.1rem 0.7rem 1.1rem;
+    color:var(--dark-blue);
+    font-family: "Nexa-Bold";
+    }
+    
+@media only screen and (min-width:721px) and (max-width:1024px) {
+.primarybutton {
+    padding:0.8rem 2.4rem 0.8rem 2.4rem;
+    font-size:1rem;
+    letter-spacing: 0rem;
+    
+    }
+.secondarybutton {
+    
+    font-size: 1.44rem;
+    padding: 1.9rem 1.3rem 1.9rem 1.3rem;   
+
+}
+.tertiarybutton {
+   
+    padding:0.8rem 1.2rem 0.8rem 1.2rem;
+    }
+    
+}
+@media only screen and (min-width:1025px) {
+    .primarybutton {
+        padding: 3rem 1rem 3rem 1rem;
+        font-size: 0.9rem;
+        
+    }
+    .secondarybutton {
+        
+        font-size: 1.5rem;
+        padding: 1.9rem 1.4rem 1.9rem 1.4rem;   
+        letter-spacing: 0.1rem;
+    }
+    .tertiarybutton {
+        padding:0.8rem 1.2rem 0.8rem 1.2rem;
+        }
+    
+}

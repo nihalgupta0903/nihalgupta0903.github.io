@@ -1,0 +1,266 @@
+@font-face {
+ font-family: "Nexa-Light";
+    src:url(Nexa-Light.otf);
+}
+@font-face {
+    font-family: "Nexa-Bold";
+    src:url(Nexa-Bold.otf)
+}
+*{
+   box-sizing:border-box;
+}
+:root {
+    --light-blue:rgb(147,190,222);/*need help+find affordable healthcare backgroun color*/
+    --dark-blue:rgb(34,40,68);/*background doctors + footer*/
+    --mid-blue:rgb(122,176,212);/*need help button*/
+    --mida-blue:rgb(1,115,178);
+    --light-grey:#cccccc;/*footer need help nav*/
+    --dark-grey:#636668;/*footer last*/
+    --lightest-grey:rgb(243,243,243);/*exclusive services border*/
+    --white:#FFFFFF;
+    --light-black:#525659;
+    --off-white:rgb(244,244,248);
+    --grey:rgb(161,159,159);
+}
+section {
+    padding:1.5rem 1rem 1.5rem 1rem;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-family: "Nexa-Bold";
+    text-align: center;
+    color:var(--dark-blue);
+    margin-bottom: 1rem;
+}
+h1 {
+    font-size:1.8rem;
+    line-height: 1.9rem;
+}
+p {
+    font-family:"Nexa-Light";
+    text-align: center;
+    color:var(--dark-blue);
+    font-size: 1.1rem;
+    line-height: 1.4rem;
+    opacity: 0.8;
+    margin-bottom: 1.3rem;
+}
+h2 {
+    font-size: 1.6rem;
+    line-height: 1.8rem;
+}
+h3 {
+    font-size:1.6em;
+    line-height:1.7rem;
+}
+h4 {
+    font-size:1.5rem;
+    line-height:1.7rem;
+}
+h5 {
+    font-size:1.4rem;
+    line-height: 1.2rem;
+}
+h6 {
+    font-size:1.38rem;
+    line-height: 1.3rem;
+}
+img {
+    width:100%;
+    height:100%;
+    object-fit: cover;
+}
+nav {
+ width:100%;
+ display:flex;
+ font-family: "Nexa-Light";
+}
+ul{
+    
+    margin-bottom: 1.5rem;
+}
+ul li{
+font-size:1rem;
+font-family: "Nexa-Bold"; 
+letter-spacing: 0rem;
+text-align: center;
+}
+input[type="text"]{
+    
+   width:100%;
+   font-family: "Nexa-light";
+   color:var(--light-grey);
+   display:flex;
+   font-size:0.9rem;
+   padding:0.6rem 0rem 0.5rem 1.2rem;
+   border:0.4px solid white;
+}
+
+
+select {
+    border:0.04rem solid var(--light-grey);
+    font-family:"Nexa-Light";
+    width:100%;
+    padding:0.6rem 0 0.6rem 0.7rem;
+    color:var(--dark-grey);
+    font-size: 1rem;
+    opacity:0.8;
+    margin-bottom: 0.7rem;
+    display:flex;
+}
+option {
+    font-size:1rem;
+    color:var(--dark-grey);
+    opacity:0.8;
+    font-family: "Nexa-Light";
+}
+input[type="radio"] {
+    margin-right:0.5rem;
+    border:0.06rem solid var(--dark-grey);
+    height:1.7rem;
+}
+label {
+    font-family: "Nexa-Light";
+    font-size:0.9rem;
+    line-height:2rem;
+}
+textarea {
+    margin-bottom: 0.7rem;
+   width:100%;
+   font-family: "Nexa-light";
+   color:var(--light-grey);
+   display:flex;
+   font-size:1rem;
+   padding:0.7rem 0rem 0.7rem 1.2rem;
+}
+
+/*tablet view*/
+@media only screen and (min-width:721px) and (max-width:1024px) {
+    section {
+        padding:2.5rem 2rem 2.5rem 2rem;  
+    }
+    h1,h2,h3,h4,h5,h6 {
+        margin-bottom: 1.2rem;
+    }
+    h1 {
+        font-size:1.9rem;
+        line-height: 1.8rem;
+        
+    }
+    p {
+        font-size: 1.4rem;
+        line-height: 1.55rem;
+        letter-spacing: 0.1rem;
+    }
+    h2 {
+        font-size: 1.8rem;
+        line-height: 1.81rem;
+    }
+    h3 {
+        font-size:1.7rem;
+        line-height:1.8rem;
+    }
+    h4 {
+        font-size:1.6rem;
+        line-height:1.72rem;
+    }
+    h5 {
+        font-size:1.5rem;
+        line-height: 1.73rem;
+    }
+    h6 {
+        font-size:1.45rem;
+        line-height: 1.62rem;
+    }
+    
+    ul li{
+    font-size:1.3rem;
+    align-items: center;
+    }
+    input[type="text"]{
+        
+       margin-bottom: 0.8rem;
+       font-size:1.2rem;
+       padding:0.9rem 0rem 0.2rem 1rem }
+    
+    select {
+        padding:0.5rem 0 0.7rem 0.8rem;
+        font-size: 1.02rem;
+    }
+    option {
+        font-size:1.02rem;
+    }
+    input[type="radio"] {
+        margin-right:0.7rem;
+    }
+    label {
+        font-size:1.1rem;
+        line-height:2.2rem;
+    }
+    textarea {
+   margin-bottom: 0.8rem;
+   font-size:1.02rem;
+   padding:0.7rem 0rem 0.7rem 1.2rem;
+    }
+}   
+/*dekstop view*/
+@media only screen and (min-width:1025px) {
+    section {
+        padding:5rem 3rem 5rem  3rem;
+    }
+    h1,h2,h3,h4,h5,h6 {
+        margin-bottom: 1.2rem;
+    }
+    h1 {
+        font-size:2.1rem;
+        line-height: 2.1rem;
+    }
+    p {
+        font-size: 1.5rem;
+        line-height: 1.6rem;
+    }
+    h2 {
+        line-height: 1.85rem;
+    }
+    h3 {
+        line-height:1.85rem;
+    }
+    h4{
+        line-height:1.75rem;
+    }
+    h5 {
+        line-height: 1.7rem;
+    }
+    h6 {
+        line-height: 1.6rem;
+    }
+    ul {
+        margin-bottom: 1.7rem;
+    }
+    ul li{
+    font-size:1.33rem;
+    }
+    input[type="text"]{
+       margin-top: 1rem;
+       font-size:1rem;
+       padding:0.8rem 0rem 0.8rem 1.3rem;
+    }
+    select {
+        padding:0.7rem 0 0.7rem 1rem;
+        font-size: 1.03rem;
+    }
+    option {
+        font-size:1.03rem;
+    }
+    input[type="radio"] {
+        margin-right:0.9rem;
+    }
+    label {
+        font-size:1.2rem;
+        line-height:2.3rem;
+    }
+    textarea {
+   margin-bottom: 0.9rem;
+   font-size:1.03rem;
+   padding:0.9rem 0rem 0.9rem 1.4rem;
+    }
+}
