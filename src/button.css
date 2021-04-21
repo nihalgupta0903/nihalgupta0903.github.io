@@ -15,9 +15,9 @@
 .secondarybutton {
     background: var(--mida-blue);
     font-size: 0.8rem;
-    padding:1rem 1.2rem 1rem 1.2rem;
-    border:0.01rem solid var(--mid-blue);
-    color:white;
+    padding:0.9rem 1.1rem 0.9rem 1.1rem;
+    border:0.01rem solid var(--mida-blue);
+    color:var(--white);
 }
 
 .tertiarybutton {
