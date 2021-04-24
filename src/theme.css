@@ -154,6 +154,7 @@ textarea {
         font-size: 1.4rem;
         line-height: 1.55rem;
         letter-spacing: 0.1rem;
+        margin-bottom: 1.2rem;
     }
     h2 {
         font-size: 1.8rem;
@@ -181,12 +182,12 @@ textarea {
     align-items: center;
     }
     input[type="text"],::placeholder {
-        font-size: 1.2rem;
+        font-size: 0.9rem;
     }
     input[type="text"]{
         
        margin-bottom: 0.8rem;
-       padding:0.9rem 0rem 0.2rem 1rem }
+       padding:0.7rem 0rem 0.7rem 1rem }
     
     select {
         padding:0.5rem 0 0.7rem 0.8rem;
