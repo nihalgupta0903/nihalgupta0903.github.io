@@ -81,7 +81,7 @@ ul{
     margin-bottom: 1.5rem;
 }
 ul li{
-font-size:1rem;
+font-size:0.8rem;
 font-family: "Nexa-Bold"; 
 letter-spacing: 0rem;
 text-align: center;
@@ -178,7 +178,7 @@ textarea {
     }
     
     ul li{
-    font-size:1.3rem;
+    font-size:1.1rem;
     align-items: center;
     }
     input[type="text"],::placeholder {

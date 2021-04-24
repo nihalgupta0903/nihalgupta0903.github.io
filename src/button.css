@@ -2,6 +2,7 @@ button {
     font-family: "Nexa-Light";
     border-radius: 0.3rem;
     font-size:0.8rem ;
+    letter-spacing: 0.08rem;
 }
 .secondarybutton,.tertiarybutton {
     opacity: 0.8;
